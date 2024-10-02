@@ -1,0 +1,44 @@
+[
+{ 
+    "id": 0,
+    "contenido": "¿Te pondiras en contacto con tu familia y planearias tu escape?",
+    "respuesta": "Si",
+    "diasVida": 10
+},
+{ 
+    "id": 1, 
+    "contenido": "¿Puedes correr a alta velocidad por más de 5min?", 
+    "respuesta": "Si", 
+    "diasVida": 10 
+},
+{ 
+    "id": 2, 
+    "contenido": "Ante una orda de zombies impidiendo tu paso ¿Pasarias corriendo entre ellos?",
+    "respuesta": "No", 
+    "diasVida": 10 
+},
+{ 
+    "id": 3, 
+    "contenido": "¿Buscarias compañia para afrontar la pandemia?", 
+    "respuesta": "Si", 
+    "diasVida": 10 
+},
+{ 
+    "id": 4, 
+    "contenido": "En una situacion desesperada ¿Comerias carne de zombie? ", 
+    "respuesta": "No", 
+    "diasVida": 10 
+},
+{ 
+    "id": 5, 
+    "contenido": "¿Que arma escogerias?", 
+    "respuesta": "Ballesta", 
+    "diasVida": 10 
+},
+{ 
+    "id": 6, 
+    "contenido": "Una tarea importante a la hora de un apocalipsis zombie es elegir bien tu comida...¿Cuál escogerias?", 
+    "respuesta": "Enlatados", 
+    "diasVida": 10 
+}
+]

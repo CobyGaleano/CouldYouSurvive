@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, inicial-scale=1.0">
+    <title> Pre-Entrega 1: JS </title>
+    <script async src="./jugador.js"></script>
+    <script async src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+    <section class="Titulo">
+        <h1>TEST DE SUPERVIVENCIA ZOMBIE</h1>
+    </section>
+
+    <section class="Presentacion">
+        <h3>Año 2020, un extraño marzo en Argentina, el dia temido ha llegado, la pandemia arriba a costas bonaerences,
+            pero el virus ha mutando convirtiendo a quien lo contrae en criaturas poco razonales, capaces de las peores
+            atrocidades por ejemplo quemar el estadio del "equipo de tus amores"
+            ¿Qué locura verdad? </h3>
+
+        <p>Tu objetivo es sobrevivir a este virus el mayor tiempo posible. Las reglas son claras....</p>
+        <p>-Por defecto cuentas con <strong>25 dias</strong> de gracia en este mundo.</p>
+        <p>-Cada respuesta correcta equivale a <strong> 10 días más de vida </strong>en este infierno. </p>
+        <p>-Las respuestas incorrectas <strong> restan 5 días de vida</strong></p>
+        <label>Y vos ¿Cuántos días crees que podes sobrevivir?</label>
+    </section>
+    
+    <section id="PreguntasHTML" class="Comienzo">
+        <input type="text" id="diasEsperados" required oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+        <label>¿LISTO PARA COMENZAR?</label>
+        <button type="submit" id="btnComenzar">COMENZEMOS</button>
+    </section>
+
+    <footer>
+        <h3>Agradecimientos a quien lo merece, deToxoMoroxo.
+            Gran Video para utilizarlo como Quiz Interactivo
+        </h3>
+    </footer>
+
+</body>
+
+</html>
